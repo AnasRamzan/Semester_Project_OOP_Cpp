@@ -24,7 +24,7 @@ public:
 	void setVehicle(int, string, string, int, int, int, string, string);
 
 
-	virtual void objToFile();//called in add()
+	virtual void objToFile();
 	static int recCount();
 	static void readFile(Car c[], int);
 	static void arrayToFile(Car c[], int);
