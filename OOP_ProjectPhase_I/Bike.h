@@ -22,7 +22,7 @@ public:
 	virtual void setType(const string) ;
 
 
-	virtual void objToFile();//called in add()
+	virtual void objToFile();
 	static int recCount();
 	static void readFile(Bike b[], int);
 	static void arrayToFile(Bike b[], int);
